@@ -1,0 +1,14 @@
+pipeline {
+
+agent only
+
+stages {
+
+  Storage("build") {
+  
+    steps {
+    
+    }
+    
+    }
+    }
