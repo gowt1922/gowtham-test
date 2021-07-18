@@ -10,5 +10,11 @@ stages {
     echo 'Building the application'
     }
     
+     Storage("Deploy") {
+  
+    steps {
+    echo 'Deploying the application'
+    }
+    
     }
     }
