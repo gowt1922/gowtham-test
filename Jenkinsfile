@@ -4,17 +4,17 @@ agent only
 
 stages {
 
-  Storage("build") {
+  stage("build") {
   
     steps {
     echo 'Building the application'
     }
-    
-     Storage("Deploy") {
+  }
+  stage("Deploy"){
   
     steps {
     echo 'Deploying the application'
     }
-    
-    }
-    }
+  }
+}
+}
